@@ -3,6 +3,10 @@ import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import App from './App.vue'
 
+import * as echarts from 'echarts'
+import 'echarts-liquidfill'
+Vue.prototype.$echarts = echarts
+
 Vue.config.productionTip = false
 Vue.use(ElementUI);
 
