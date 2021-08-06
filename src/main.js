@@ -13,7 +13,8 @@ Vue.use(ElementUI);
 
 Vue.use(msal, {
     auth: {
-        clientId: 'a120a123-4433-457e-a562-3bd4ffea8d92'
+        clientId: 'a120a123-4433-457e-a562-3bd4ffea8d92',
+        redirectUri: 'https://localhost:3000/login.html'
     },
     framework: {
         globalMixin: true
